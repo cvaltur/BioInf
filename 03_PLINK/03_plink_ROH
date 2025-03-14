@@ -1,0 +1,9 @@
+PLINK ROH
+
+plink --bfile 04_plink/alldarwin_merged_masked_snp_chrID 
+--homozyg --homozyg-snp 50 --homozyg-kb 100 --homozyg-window-snp 10 --homozyg-window-het 1 --homozyg-window-missing 5 
+--allow-extra-chr 
+--out 04_plink/alldarwin_merged_masked_snp_chrID_ROH
+
+Output:
+.hom
