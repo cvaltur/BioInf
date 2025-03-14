@@ -1,0 +1,12 @@
+PLINK files + CHR ID.
+
+
+vcftools --vcf 11darwin_filtered_3dp_masked_merged_snp.vcf 
+--plink --chrom-map 11darwin_filtered_3dp_merged_chrom-map.txt 
+--out filtered_3dp_m3039_40/11darwin_filtered_3dp_masked_merged_snp_chrID
+
+Output:
+
+.log
+.map
+.ped
