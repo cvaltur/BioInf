@@ -1,0 +1,9 @@
+PLINK PCA
+
+Geting .eigenvec and .eigenval files from binary plink, to make a PCA in R.
+
+
+plink --bfile 12_ROH/VSm_merged_masked_snp_chrID_ROH
+--pca 
+--out 12_ROH/VSm_merged_masked_snp_chrID_ROH 
+--allow-extra-chr
