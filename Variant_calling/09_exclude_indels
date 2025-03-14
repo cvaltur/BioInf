@@ -1,0 +1,4 @@
+Exclude indels
+
+
+bcftools view -e 'TYPE="indel"' -O z -o output_no_indels.g.vcf.gz input.g.vcf.gz
