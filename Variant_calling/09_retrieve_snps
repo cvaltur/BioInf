@@ -1,0 +1,4 @@
+Retrieve SNPs
+
+
+bcftools filter -i TYPE=\"snp\" -O v VSm_merged_masked.vcf  > VSm_merged_masked_snp.vcf
