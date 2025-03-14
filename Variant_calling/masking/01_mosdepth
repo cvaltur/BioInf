@@ -1,0 +1,9 @@
+#Calculate per-base genome coverage
+
+
+mosdepth -t 4 output_path/prefix 03_mapped/prefix_trimmed_sorted_fxm_sorted_rmdup.bam
+
+SRR8380704_canfam6.mosdepth.global.dist.txt
+SRR8380704_canfam6.mosdepth.summary.txt
+SRR8380704_canfam6.per-base.bed.gz
+SRR8380704_canfam6.per-base.bed.gz.csi
