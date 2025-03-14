@@ -1,0 +1,12 @@
+Sergei Python.sh 1
+
+Calculate mean genome coverage using sliding window 
+
+Python /mnt/dep2/foerster/test/scripts/get_windows_stats_mosdepth_per_base_file.py
+-o inputoutput_path/sample_prefix -w 1000000 -s 100000 -b 100000000 
+-i inputoutput_path/sample_prefix.per-base.bed.gz
+
+output:
+SRR8380704_canfam6.per_scaffold.stat
+SRR8380704_canfam6.stat
+SRR8380704_canfam6.all.stat
