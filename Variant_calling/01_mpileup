@@ -1,0 +1,9 @@
+Bcftools mpileup
+
+bcftools mpileup -d 250 -q 30 -Q 30 --adjust-MQ 50 
+--threads 6 
+-a AD,INFO/AD,ADF,INFO/ADF,ADR,INFO/ADR,DP,SP,SCR,INFO/SCR 
+-O b 
+-f /mnt/dep2/shared/Genomes/Canis_lupus_familiaris_canFam6/GCF_000002285.5_Dog10K_Boxer_Tasha_genomic.fna 
+03_mapped/m3039_trimmed_sorted_fxm_sorted_rmdup.bam 
+-o 04_bcfvcf/m3039_trimmed_sorted_fxm_sorted_rmdup.bcf
