@@ -1,0 +1,11 @@
+Must be done on all 1 on 1 combinations of individually generated masking.bed files.
+
+
+Generate combined masking track 
+
+
+
+
+bedtools intersect -a <bed_masking_file_sample1> -b <bed_masking_file_sample2> > <intersect_sample1_sample2>
+
+intersect_LF_139_masking_m3039_masking.bed  
