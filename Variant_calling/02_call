@@ -1,0 +1,5 @@
+#Bcftools call
+
+bcftools call -G - -m -O u -v -f GQ,GP 
+--threads 16 
+-o folder/sample_rmdup.vcf folder/sample_rmdup.bcf
