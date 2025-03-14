@@ -1,12 +1,7 @@
-#Mapping
 
-Program: bwa-mem2 
-Conda env: Map
-- bwa-mem2
-- sambamba
 
-`bwa-mem2 mem -M -t 8 
+bwa-mem2 mem -M -t 8 
 /mnt/dep2/shared/Genomes/Canis_lupus_familiaris_canFam6/GCF_000002285.5_Dog10K_Boxer_Tasha_genomic.fna.gz
 01_trimmed/m3040_R1_trimmed.fastq.gz 01_trimmed/m3040_R2_trimmed.fastq.gz | 
 sambamba view -t 8 -S -f bam -F "not unmapped and not mate_is_unmapped and mapping_quality >= 30 and sequence_length >= 50" /dev/stdin | 
-sambamba sort -t 8 -o 02_mapped/00_test/m3040_sorted_filtered.bam /dev/stdin`
+sambamba sort -t 8 -o 02_mapped/00_test/m3040_sorted_filtered.bam /dev/stdin
