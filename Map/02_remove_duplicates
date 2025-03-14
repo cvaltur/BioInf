@@ -1,6 +1,6 @@
 ###Sambamba markdup
 
-sambamba markdup -t 8 -r <sample_sorted.bam> <sample_sorted_dedup.bam>  
+sambamba markdup -t 8 -r <sample_sorted.bam> <sample_sorted_dedup.bam>
 
 ###sambamba index
 
