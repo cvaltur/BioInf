@@ -1,0 +1,12 @@
+PLINK .fam .bed . bim
+
+plink --file 12_ROH/VSdw_merged_masked_snp_chrID 
+--make-bed --allow-extra-chr 
+--out 12_ROH/VSdw_merged_masked_snp_chrID
+
+Output:
+
+.bed
+.bim
+.fam 
+.nosex
