@@ -1,0 +1,9 @@
+Mask Merged VCF
+
+	# Here I apply the final “_merged_maskin_track” to mask the merged .vcf file
+Needs to be done independent if working with merged VCF or individual.
+ command creates a chromosome map file for your VCF processing pipeline
+
+bedtools intersect -v -a 04_bcf_vcf/02_merged/VSm_merged.vcf.gz 
+-b 05_masking/02_combined_masking_exclude/00_masking_track_final/VSm_merged_masking_track_list 
+-header > 04_bcf_vcf/02_merged/VSm_merged_masked.vcf
