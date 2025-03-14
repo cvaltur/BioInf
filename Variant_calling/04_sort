@@ -1,0 +1,3 @@
+#Bcftools sort
+
+bcftools sort -O u -o output_folder/m3039_filtered_sorted.bcf input_folder/m3039_filtered.vcf
