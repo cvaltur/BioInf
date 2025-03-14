@@ -1,0 +1,8 @@
+#Bcftools filter
+
+
+bcftools filter 
+--threads X 
+-o 04_bcfvcf/sample_filtered.vcf 
+--exclude 'QUAL < 20.0 || (FORMAT/SP > 60.0 || FORMAT/DP < 3.0 || FORMAT/GQ < 20.0)' 
+04_bcfvcf/sample.vcf
