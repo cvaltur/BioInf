@@ -1,0 +1,3 @@
+#Bcftools index
+
+bcftools index folder/sample_filtered_sorted.bcf 
