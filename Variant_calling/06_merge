@@ -1,0 +1,6 @@
+#Bcftools merge
+
+bcftools merge 
+--threads 8 
+--missing-to-ref sample_1 sample_2 sample_3
+-o 11_mergevcf/11darwin_filtered_merged.vcf.gz
