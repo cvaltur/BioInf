@@ -1,0 +1,35 @@
+# packages in environment at /home/valenzuela/.conda/envs/sambcf2:
+#
+# Name                    Version                   Build  Channel
+_libgcc_mutex             0.1                 conda_forge    conda-forge
+_openmp_mutex             4.5                       2_gnu    conda-forge
+bcftools                  1.19                 h8b25389_1    bioconda
+bzip2                     1.0.8                hd590300_5    conda-forge
+c-ares                    1.27.0               hd590300_0    conda-forge
+ca-certificates           2024.2.2             hbcca054_0    conda-forge
+gsl                       2.7                  he838d99_0    conda-forge
+htslib                    1.19.1               h81da01d_2    bioconda
+keyutils                  1.6.1                h166bdaf_0    conda-forge
+krb5                      1.21.2               h659d440_0    conda-forge
+libblas                   3.9.0           21_linux64_openblas    conda-forge
+libcblas                  3.9.0           21_linux64_openblas    conda-forge
+libcurl                   8.5.0                hca28451_0    conda-forge
+libdeflate                1.18                 h0b41bf4_0    conda-forge
+libedit                   3.1.20191231         he28a2e2_2    conda-forge
+libev                     4.33                 hd590300_2    conda-forge
+libgcc-ng                 13.2.0               h807b86a_5    conda-forge
+libgfortran-ng            13.2.0               h69a702a_5    conda-forge
+libgfortran5              13.2.0               ha4646dd_5    conda-forge
+libgomp                   13.2.0               h807b86a_5    conda-forge
+libnghttp2                1.58.0               h47da74e_1    conda-forge
+libopenblas               0.3.26          pthreads_h413a1c8_0    conda-forge
+libssh2                   1.11.0               h0841786_0    conda-forge
+libstdcxx-ng              13.2.0               h7e041cc_5    conda-forge
+libxcrypt                 4.4.36               hd590300_1    conda-forge
+libzlib                   1.2.13               hd590300_5    conda-forge
+ncurses                   6.4                  h59595ed_2    conda-forge
+openssl                   3.2.1                hd590300_0    conda-forge
+perl                      5.32.1          7_hd590300_perl5    conda-forge
+samtools                  1.19.2               h50ea8bc_1    bioconda
+xz                        5.2.6                h166bdaf_0    conda-forge
+zstd                      1.5.5                hfc55251_0    conda-forge
