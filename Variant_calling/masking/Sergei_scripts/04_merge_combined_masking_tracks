@@ -1,0 +1,12 @@
+merge combined masking track 
+
+
+cat intersect_m2302_m2348 intersect_m2302_m2352 intersect_m2302_m2381 intersect_m2302_m2612 intersect_m2348_m2352 intersect_m2348_m2381 intersect_m2348_m2612 intersect_m2352_m2381 intersect_m2352_m2612 intersect_m2381_m2612 | sort -k1,1 -k2,2n -k3,3n  | bedtools merge > L.griseus5_merged_masking_track
+
+
+
+also using filelist:
+
+# Read .bed file names from bed_files_list.txt and concatenate them, sort them, and merge using bedtools
+
+xargs cat < bed_files_list.txt | sort -k1,1 -k2,2n -k3,3n | bedtools merge > 00_masking_track_final/VSdw_merged_masking_track_list
