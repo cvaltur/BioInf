@@ -1,0 +1,13 @@
+fastp 
+--in1 00_raw/SampleID_R1.fastq.gz 
+--in2 00_raw/SampleID_R2.fastq.gz 
+--out1 ./02_trimmed/SampleID_1_trimmed.fastq.gz 
+--out2 ./02_trimmed/SampleID_2_trimmed.fastq.gz 
+--qualified_quality_phred 15 
+--unqualified_percent_limit 40 
+--average_qual 30 -l 50 
+-h ./02_trimmed/SampleID_trimmed.html 
+-j ./02_trimmed/SampleID_trimmed.json 
+--correction 
+--dont_overwrite 
+--thread 8
