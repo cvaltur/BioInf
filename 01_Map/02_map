@@ -10,3 +10,13 @@ sambamba view
 sambamba sort 
 -t 8 
 -o 02_mapped/00_test/m3040_sorted_filtered.bam /dev/stdin
+
+Arguments:
+-q 10: Skip (filter out) all reads with mapping quality less than 10. 
+-b: Output in BAM format.  
+-h: Include the SAM header in the output.
+-u: Output uncompressed BAM.
+-n: Sort by read name. 
+-o:  output folder/name
+-M: Mark shorter split hits as secondary (for Picard compatibility)
+-F: minimum score to output an alignment
