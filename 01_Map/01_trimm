@@ -11,3 +11,11 @@ fastp
 --correction 
 --dont_overwrite 
 --thread 8
+
+Arguments:
+--in1 / --in2:input path/sample forward and reverse reads
+--out1 / --out2: output path/sample forward and reverse reads
+--qualified_quality_phred: 
+Adapter trimming: enabled by default, autodetection. --disable_adapter_trimming to disable
+-l:The minimum length requirement
+--unqualified_percent_limit: 
