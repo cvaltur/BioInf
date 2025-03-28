@@ -1,0 +1,15 @@
+#Sambamba markdup
+
+sambamba markdup -t 8 -r <sample_sorted.bam> <sample_sorted_dedup.bam>  
+
+#Arguments:
+#-r: Remove duplicate reads.
+#-s: Print some basic stats. See STATISTICS.
+#-@: threads
+
+#sambamba index
+
+sambamba index -t 8 <sample_sorted_dedup.bam>
+
+#Arguments:
+#-t : number of threads
